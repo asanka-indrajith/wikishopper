@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/background_3"><EditText android:layout_height="wrap_content" android:id="@+id/Change_text" android:layout_width="350px"></EditText>
+
+
+
+<Button android:layout_below="@+id/Change_text" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/change_button" android:text="@string/change_button"></Button>
+
+
+<Button android:layout_below="@+id/Change_text" android:layout_toRightOf="@+id/change_button" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/return_button" android:text="@string/return_button"></Button>
+</RelativeLayout>
