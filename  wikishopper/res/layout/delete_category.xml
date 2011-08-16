@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/background_3"><TextView android:layout_height="wrap_content" android:id="@+id/delete_category_text" android:text="@string/delete_cat_text" android:layout_width="fill_parent"></TextView>
+<Spinner android:layout_height="wrap_content" android:layout_below="@+id/delete_category_text" android:layout_width="fill_parent" android:id="@+id/delete_spinner" android:prompt="@string/delete_spinner__prompt" ></Spinner>
+<Button android:layout_height="wrap_content" android:layout_below="@+id/delete_spinner" android:id="@+id/delete_button" android:text="@string/delete_cat_button" android:layout_width="150px" android:drawableLeft="@drawable/ic_action_delete"></Button>
+</RelativeLayout>

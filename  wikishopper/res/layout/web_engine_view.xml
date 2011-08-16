@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <WebView android:layout_width="fill_parent" android:id="@+id/web_engine" android:layout_height="375px" android:minHeight="375px"></WebView>
+    <RelativeLayout android:layout_width="match_parent" android:id="@+id/relativeLayout5" android:layout_height="wrap_content" android:layout_marginTop="5px" android:visibility="invisible">
+        <RelativeLayout android:id="@+id/relativeLayout2" android:layout_height="wrap_content" android:layout_width="110px" android:visibility="invisible">
+            <Button android:text="Description" android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:width="110px"></Button>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/relativeLayout3" android:layout_height="wrap_content" android:layout_marginLeft="110px" android:layout_width="110px">
+            <Button android:layout_alignParentRight="true" android:id="@+id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Image" android:width="110px"></Button>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/relativeLayout4" android:layout_height="wrap_content" android:layout_marginLeft="220px" android:layout_width="110px">
+            <Button android:id="@+id/button3" android:layout_width="wrap_content" android:layout_alignParentTop="true" android:layout_height="wrap_content" android:text="More" android:width="110px"></Button>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

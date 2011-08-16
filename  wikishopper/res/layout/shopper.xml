@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="fill_parent" android:background="@drawable/front_ad"><ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="325px"></ImageView>
+<LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_below="@+id/ImageView01" android:layout_width="fill_parent" android:layout_alignParentBottom="true" android:orientation="vertical">
+    <Button android:layout_height="wrap_content" android:id="@+id/product_search_button" android:text="@string/product_search" android:layout_width="fill_parent"></Button>
+    <Button android:layout_height="wrap_content" android:id="@+id/category_button" android:text="@string/category_edit" android:layout_width="fill_parent"></Button>
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"><ImageView android:id="@+id/ImageView01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/cat"></ImageView>
+
+
+
+
+<Button android:layout_below="@+id/ImageView01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/new_cat" android:id="@+id/new_category_button"></Button><Button android:layout_below="@+id/new_category_button" android:layout_height="wrap_content" android:id="@+id/show_category_button" android:layout_width="fill_parent" android:text="@string/show_cat"></Button><Button android:layout_height="wrap_content" android:layout_below="@+id/show_category_button" android:id="@+id/delete_category_button" android:layout_width="fill_parent" android:text="@string/delete_cat"></Button><LinearLayout android:id="@+id/LinearLayout01" android:layout_toLeftOf="@+id/ImageView01" android:layout_height="wrap_content" android:layout_width="fill_parent">
+</LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
