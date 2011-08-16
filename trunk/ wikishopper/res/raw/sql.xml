@@ -1,0 +1,16 @@
+<sql>
+<statement>
+CREATE TABLE IF NOT EXISTS category (
+	_id INTEGER PRIMARY KEY AUTOINCREMENT, 
+	category VARCHAR(50), 
+	preference_1 VARCHAR(200), 
+	preference_2 VARCHAR(200), 
+	preference_3 VARCHAR(200) 
+	)
+</statement>
+<statement>INSERT INTO category VALUES(1,'Food','not containing nuts','Certified', 'Fresh')</statement>
+<statement>INSERT INTO category VALUES(2,'Phone','Smart','Nokia','Samsung')</statement>
+<statement>INSERT INTO category VALUES(3,'iPhone','3G','Hi Fi','Camera')</statement>
+<statement>INSERT INTO category VALUES(4,'Tv','Samsung','17 inches','Fatscreen')</statement>
+
+</sql>

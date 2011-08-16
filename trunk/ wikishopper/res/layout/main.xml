@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@drawable/background_3">
+    
+    <EditText android:id="@+id/search_edit_text" 
+		android:text="@string/search"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+	/>
+    <ScrollView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/scrollView1">
+        <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RadioGroup android:layout_height="wrap_content" android:id="@+id/search_radio_group" android:layout_width="fill_parent" android:orientation="vertical">
+                <RadioButton android:checked="true" android:layout_width="wrap_content" android:id="@+id/name_search_radio_button" android:layout_height="wrap_content" android:text="@string/name"></RadioButton>
+                <RadioButton android:checked="false" android:layout_width="wrap_content" android:id="@+id/upc_search_radio_button" android:layout_height="wrap_content" android:text="@string/upc"></RadioButton>
+                <RadioButton android:checked="false" android:layout_width="wrap_content" android:id="@+id/ean_search_radio_button" android:layout_height="wrap_content" android:text="@string/ean"></RadioButton>
+                <RadioButton android:checked="false" android:layout_width="wrap_content" android:id="@+id/mpn_search_radio_button" android:layout_height="wrap_content" android:text="@string/mpn"></RadioButton>
+                <LinearLayout android:layout_height="wrap_content" android:id="@+id/LinearLayout01" android:layout_width="fill_parent">
+                    <TextView android:id="@+id/TextView01" android:textSize="23sp" android:width="115px" android:textColor="#8E2323" android:text="@string/category" android:layout_height="fill_parent" android:ellipsize="marquee" android:layout_width="wrap_content" android:textStyle="bold"></TextView>
+                    <Spinner android:prompt="@string/delete_spinner__prompt" android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/category_spinner01"></Spinner>
+                </LinearLayout>
+                <CheckBox android:text="@string/check" android:id="@+id/CheckBox01" android:layout_height="wrap_content" android:layout_width="wrap_content" android:textColor="#8E2323"></CheckBox>
+                <TextView android:id="@+id/search_type_text_view" android:textColor="#ffffff" android:text=" " android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+                <Button android:includeFontPadding="false" android:id="@+id/search_button" android:layout_height="wrap_content" android:textStyle="bold" android:layout_width="fill_parent" android:textSize="20sp" android:drawableLeft="@drawable/ic_action_search" android:text="@string/search"></Button>
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

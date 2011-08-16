@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@drawable/background_3">
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout8" android:layout_gravity="top" android:layout_height="11px"></LinearLayout>
+    <TextView android:id="@+id/name_text_view" android:textColor="#8E2323" android:layout_width="fill_parent" android:layout_weight="1" android:textStyle="bold" android:layout_height="0dip" android:textSize="23sp" android:ellipsize="end"></TextView>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout10" android:layout_height="5px"></LinearLayout>
+
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content">
+      <TextView android:width="10px" android:id="@+id/textView1" android:layout_width="wrap_content" android:gravity="center_horizontal" android:layout_height="100px"></TextView>
+      <ImageView android:layout_height="wrap_content" android:id="@+id/product_thumb_icon" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_marginRight="6dip" android:layout_weight="0"></ImageView>
+      <LinearLayout android:id="@+id/linearLayout1" android:layout_weight="1" android:layout_width="wrap_content" android:orientation="vertical" android:layout_height="wrap_content">
+          <TextView android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="wrap_content" android:id="@+id/category_text_view" android:textStyle="bold"></TextView>
+          <TextView android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="wrap_content" android:id="@+id/price_text_view" android:textStyle="bold" android:visibility="invisible" android:text="Price: N/A"></TextView>
+          <TextView android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="wrap_content" android:id="@+id/releasedate_text_view" android:textStyle="bold" android:visibility="invisible" android:text="Release Date: N/A "></TextView>
+          <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/proscore_text_view" android:textStyle="bold"></TextView>
+          <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/reviews_text_view" android:textStyle="bold"></TextView>
+          <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/manufacture_text_view" android:textStyle="bold" android:visibility="invisible" android:text="Manufacturer: N/A"></TextView>
+      </LinearLayout>
+  </LinearLayout>
+  <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout9" android:layout_height="15px"></LinearLayout>
+  <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout3" android:layout_height="wrap_content">
+      <LinearLayout android:id="@+id/linearLayout4" android:layout_height="match_parent" android:layout_width="11px"></LinearLayout>
+      <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/image_loveit" android:src="@drawable/lov_it" android:visibility="invisible"></ImageView>
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/lovit_text_view" android:text=" 0" android:visibility="invisible"></TextView>
+      <LinearLayout android:id="@+id/linearLayout6" android:layout_height="match_parent" android:layout_width="10px"></LinearLayout>
+      <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/image_wantit" android:src="@drawable/want_it" android:visibility="invisible"></ImageView>
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/wantit_text" android:text=" 0" android:visibility="invisible"></TextView>
+      <LinearLayout android:id="@+id/linearLayout7" android:layout_height="match_parent" android:layout_width="10px"></LinearLayout>
+      <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hav_it" android:id="@+id/image_haveit" android:visibility="invisible"></ImageView>
+      <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/haveit_text" android:text=" 0" android:visibility="invisible"></TextView>
+  </LinearLayout>
+  <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout5" android:layout_height="wrap_content" android:layout_weight="1"></LinearLayout>
+  <LinearLayout android:id="@+id/linearLayout2" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical" android:scrollbarAlwaysDrawHorizontalTrack="false" android:layout_gravity="bottom">
+      <Button android:id="@+id/descrption_button" android:layout_height="wrap_content" android:layout_width="fill_parent" android:visibility="invisible" android:text="Further details" android:drawableLeft="@drawable/ic_action_plus" android:textStyle="bold"></Button>
+      <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/proscons_button" android:visibility="invisible" android:text="Pros &amp; Cons &amp; Features" android:drawableLeft="@drawable/ic_action_proscons" android:textStyle="bold"></Button>
+      <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/related_button" android:visibility="invisible" android:text="Related Products" android:drawableLeft="@drawable/ic_action_relative" android:textStyle="bold"></Button>
+      <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/competitors_button" android:visibility="invisible" android:text="Competitors" android:drawableLeft="@drawable/ic_action_competitors" android:textStyle="bold"></Button>
+  </LinearLayout>
+
+</LinearLayout>
